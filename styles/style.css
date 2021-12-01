@@ -106,7 +106,6 @@ html {
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-
   overflow-x: hidden;
 
   min-width: 100%;
@@ -140,7 +139,9 @@ textarea {
 
 @font-face {
   font-family: "AGChoijeonghoMinburiStdBold";
-  src: local(※), url(../fonts/AGChoijeonghoMinburiStdBold.woff) format("woff"), url(../fonts/AGChoijeonghoMinburiStdBold.woff2) format("woff2");
+  src: local(※),
+    url(../fonts/AGChoijeonghoMinburiStdBold.woff) format("woff"),
+    url(../fonts/AGChoijeonghoMinburiStdBold.woff2) format("woff2");
 }
 
 @media screen and (min-width: 512px) {
@@ -159,35 +160,44 @@ pre {
 body {
   font-family: "AGChoijeonghoMinburiStdBold";
   width: 100%;
-  font-size: 0.5rem;
+  font-size: 0.75rem;
 
   line-height: 1.7;
-  color: white;
 
 }
 
+.blink {
+  animation: blink-effect 0.25s step-end infinite;
+}
 
+@keyframes blink-effect {
+  25% {
+    opacity: 0;
+    transform: rotate( 45deg );
+  }
+  75% {
+    opacity: 0;
+  }
+}
 
 #clock {
-  
+  position: absolute;
   padding-left: 16px;
-  font-size: 1rem;
+  font-size: 0.5rem;
   align-self: center;
   justify-self: center;
   text-align: left;
-
 }
 
-#text{
+#text {
   width: 100%;
   position: absolute;
   padding-right: 16px;
 
   text-align: right;
-  font-size: 1rem;
+  font-size: 0.5rem;
   align-self: center;
   justify-self: center;
-
 }
 
 #item {
@@ -317,11 +327,9 @@ img#bar {
   text-align: center;
 }
 
-
 #lineBox {
   position: absolute;
   bottom: 0;
-
 }
 
 #stats {
@@ -673,14 +681,13 @@ input:checked + .slider:before {
 }
 
 #defaultCanvas0 {
-width: 100%;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-z-index: -1;
+  z-index: -1;
 }
-
 
 /* //noise */
 
