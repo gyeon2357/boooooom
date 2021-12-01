@@ -4,69 +4,23 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="initial-scale=1.0, user-scalable=no, maximum-scale=1.0, width=device-width"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
     />
-
-    <meta content="yes" name="apple-mobile-web-app-capable" />
-    <meta
-      content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no"
-      name="viewport"
-    />
-
-    <title>o!cunning...</title>
-    <meta name="description" content="o!cunning..." />
-    <meta name="keywords" content="o!cunning..." />
-
-    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    <title>XYZ-sketchbook</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
+
   <body>
-		<video class="original" autoplay muted playsinline loop>
-			<source src="images/liveaid.mp4" />
-			<p>
-				Your user agent does not support the HTML5 Video element.
-			</p>
-		</video>
+    <p id="clock">time out</p>
+    <p id="text">BOOOOOOM → 2021.12.20 18:00</p>
 
-    <div class="app">
-      <div id="bound-two" class="scroll-bound">
-        <div class="content">
-          <p></p>
-          <video width="600" autoplay muted playsinline loop>
-            <source src="images/liveaid-lips.mov" />
-            <p>
-              Your user agent does not support the HTML5 Video element.
-            </p>
-          </video>
-        </div>
-      </div>
+    <div id="lineBox"></div>
+    <div class="info"></div>
 
-      <div id="bound-three" class="scroll-bound">
-        <div class="content">
-          <p></p>
-          <video width="600" muted preload>
-            <source src="images/liveaid-2ways.mov" type="video/mp4" />
-            <p>
-              Your user agent does not support the HTML5 Video element.
-            </p>
-          </video>
-        </div>
-      </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/p5.min.js"></script>
 
-      <div id="bound-one" class="scroll-bound">
-        <div class="content">
-          <p></p>
-          <video width="600" autoplay muted playsinline loop>
-            <source src="images/liveaid-tri.mov" type="video/webm" />
-            <p>
-              Your user agent does not support the HTML5 Video element.
-            </p>
-          </video>
-        </div>
-      </div>
-    </div>
-
-    <script src="jquery.min.js"></script>
-
-    <script src="script.js"></script>
+    <script src="./js/fade5.js"></script>
   </body>
 </html>
