@@ -138,10 +138,10 @@ textarea {
 }
 
 @font-face {
-  font-family: "AGChoijeonghoMinburiStdMedium";
+  font-family: "AGChoiJeongHoStd-Regular";
   src: local(※),
-    url(../fonts/AGChoijeonghoMinburiStdMedium.woff) format("woff"),
-    url(../fonts/AGChoijeonghoMinburiStdMedium.woff2) format("woff2");
+    url(../fonts/AGChoiJeongHoStd-Regular.woff) format("woff"),
+    url(../fonts/AGChoiJeongHoStd-Regular.woff2) format("woff2");
 }
 
 @media screen and (min-width: 512px) {
@@ -158,7 +158,7 @@ pre {
 }
 
 body {
-  font-family: "AGChoijeonghoMinburiStdMedium";
+  font-family: "AGChoiJeongHoStd-Regular";
   width: 100%;
   font-size: 0.75rem;
   line-height: 1.7;
@@ -192,7 +192,7 @@ img {
 p#clock {
   position: absolute;
   padding-left: 16px;
-  font-size: 1.25rem;
+  font-size: 1rem;
   align-self: center;
   justify-self: center;
   text-align: left;
@@ -207,7 +207,7 @@ p#boom {
   padding-left: 16px;
   bottom: 12px;
   text-align: left;
-  font-size: 1.25rem;
+  font-size: 1rem;
   align-self: center;
   justify-self: center;
 
@@ -234,7 +234,7 @@ p#boom {
   width: 10%;
 }
 .img-bar {
-  top: 65%;
+  top: 60%;
   left: 24px;
 
   width: 1%;
@@ -261,7 +261,7 @@ p#boom {
   width: 1vw;
   height: 80px;
 
-  top: 50%;
+  top: 45%;
   left: 24px;
   transform: translate(-50%, -50%);
 
@@ -327,15 +327,15 @@ footer {
 
 @media all and (min-width: 300px) {
   footer {
-    font-size: 0.15rem;
-    bottom: 96px;
+    font-size: 0.35rem;
+    bottom: 24px;
   }
 
   p#clock {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   p#boom {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .img-boom {
@@ -345,7 +345,7 @@ footer {
   }
 
   .img-bar {
-    top: 60%;
+    top: 58%;
     left: 24px;
   
     width: 1.25%;
@@ -359,8 +359,8 @@ footer {
 
 @media all and (min-width: 1024px) {
   footer {
-    font-size: 0.2rem;
-    bottom: 36px;
+    font-size: 0.25rem;
+
   }
 
   p#clock {
@@ -377,7 +377,7 @@ footer {
   }
 
   .img-bar {
-    top: 65%;
+    top: 56%;
     left: 24px;
   
     width: 1%;
