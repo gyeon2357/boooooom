@@ -138,10 +138,10 @@ textarea {
 }
 
 @font-face {
-  font-family: "AGChoijeonghoMinburiStdBold";
+  font-family: "AGChoijeonghoMinburiStdMedium";
   src: local(※),
-    url(../fonts/AGChoijeonghoMinburiStdBold.woff) format("woff"),
-    url(../fonts/AGChoijeonghoMinburiStdBold.woff2) format("woff2");
+    url(../fonts/AGChoijeonghoMinburiStdMedium.woff) format("woff"),
+    url(../fonts/AGChoijeonghoMinburiStdMedium.woff2) format("woff2");
 }
 
 @media screen and (min-width: 512px) {
@@ -158,7 +158,7 @@ pre {
 }
 
 body {
-  font-family: "AGChoijeonghoMinburiStdBold";
+  font-family: "AGChoijeonghoMinburiStdMedium";
   width: 100%;
   font-size: 0.75rem;
   line-height: 1.7;
@@ -189,7 +189,7 @@ img {
   }
 }
 
-#clock {
+p#clock {
   position: absolute;
   padding-left: 16px;
   font-size: 1.25rem;
@@ -199,14 +199,13 @@ img {
 
   z-index: 1;
   color: #000;
-
 }
 
-#boom {
+p#boom {
   width: 100%;
   position: absolute;
   padding-left: 16px;
-  bottom: 16px;
+  bottom: 12px;
   text-align: left;
   font-size: 1.25rem;
   align-self: center;
@@ -215,7 +214,6 @@ img {
   z-index: 1;
   color: #000;
 }
-
 .img-boom {
   top: 50%;
   left: 50%;
@@ -236,14 +234,10 @@ img {
   width: 10%;
 }
 .img-bar {
-  top: 70%;
-  left: -0.5%;
-  transform: translate(-50%, -50%);
-  width: 10%;
+  top: 65%;
+  left: 24px;
 
-  -ms-transform: rotate(90deg); /* IE 9 */
-  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-  transform: rotate(90deg);
+  width: 1%;
 }
 .img-b {
   top: 15%;
@@ -268,7 +262,7 @@ img {
   height: 80px;
 
   top: 50%;
-  left: 4%;
+  left: 24px;
   transform: translate(-50%, -50%);
 
   background-color: rgba(255, 255, 255, 1);
@@ -320,5 +314,77 @@ img {
   }
   100% {
     height: 0px;
+  }
+}
+
+footer {
+  position: absolute;
+  font-size: 0.2rem;
+  right: 36px;
+
+  word-break: keep-all;
+}
+
+@media all and (min-width: 300px) {
+  footer {
+    font-size: 0.15rem;
+    bottom: 96px;
+  }
+
+  p#clock {
+    font-size: 2rem;
+  }
+  p#boom {
+    font-size: 2rem;
+  }
+
+  .img-boom {
+
+    width: 100%;
+
+  }
+
+  .img-bar {
+    top: 60%;
+    left: 24px;
+  
+    width: 1.25%;
+  }
+
+  .loader4 {
+    width: 1vw;
+    height: 70px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  footer {
+    font-size: 0.2rem;
+    bottom: 36px;
+  }
+
+  p#clock {
+    font-size: 1.25rem;
+  }
+  p#boom {
+    font-size: 1.25rem;
+  }
+
+  .img-boom {
+
+    width: 90%;
+
+  }
+
+  .img-bar {
+    top: 65%;
+    left: 24px;
+  
+    width: 1%;
+  }
+
+  .loader4 {
+    width: 1vw;
+    height: 80px;
   }
 }
