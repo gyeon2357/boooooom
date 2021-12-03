@@ -139,8 +139,7 @@ textarea {
 
 @font-face {
   font-family: "AGChoiJeongHoStd-Regular";
-  src: local(※),
-    url(../fonts/AGChoiJeongHoStd-Regular.woff) format("woff"),
+  src: local(※), url(../fonts/AGChoiJeongHoStd-Regular.woff) format("woff"),
     url(../fonts/AGChoiJeongHoStd-Regular.woff2) format("woff2");
 }
 
@@ -225,13 +224,13 @@ p#boom {
   top: 25%;
   left: 15%;
   transform: translate(-50%, -50%);
-  width: 3%;
+  width: 2%;
 }
 .img-firework {
   top: 15%;
   left: 92.5%;
   transform: translate(-50%, -50%);
-  width: 10%;
+  width: 7.5%;
 }
 .img-bar {
   top: 60%;
@@ -328,7 +327,8 @@ footer {
 @media all and (min-width: 300px) {
   footer {
     font-size: 0.35rem;
-    bottom: 24px;
+    right: 24px;
+    bottom: 20px;
   }
 
   p#clock {
@@ -338,16 +338,22 @@ footer {
     font-size: 1.5rem;
   }
 
+  .img-pie {
+    width: 5%;
+  }
+  .img-firework {
+    left: 85%;
+    width: 15%;
+  }
+
   .img-boom {
-
     width: 100%;
-
   }
 
   .img-bar {
     top: 58%;
     left: 24px;
-  
+
     width: 1.25%;
   }
 
@@ -360,7 +366,8 @@ footer {
 @media all and (min-width: 1024px) {
   footer {
     font-size: 0.25rem;
-
+    right: 36px;
+    bottom: 36px;
   }
 
   p#clock {
@@ -370,16 +377,22 @@ footer {
     font-size: 1.25rem;
   }
 
+  .img-pie {
+    width: 2%;
+  }
+  .img-firework {
+    width: 7.5%;
+    left: 87.5%;
+  }
+
   .img-boom {
-
     width: 90%;
-
   }
 
   .img-bar {
     top: 56%;
     left: 24px;
-  
+
     width: 1%;
   }
 
