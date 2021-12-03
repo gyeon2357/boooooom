@@ -199,6 +199,7 @@ img {
 
   z-index: 1;
   color: #000;
+
 }
 
 #boom {
@@ -219,7 +220,8 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 75%;
+  width: 90%;
+  filter: invert(100%);
 }
 .img-pie {
   top: 25%;
@@ -228,10 +230,10 @@ img {
   width: 3%;
 }
 .img-firework {
-  top: 75%;
-  left: 85%;
+  top: 15%;
+  left: 92.5%;
   transform: translate(-50%, -50%);
-  width: 15%;
+  width: 10%;
 }
 .img-bar {
   top: 70%;
@@ -263,9 +265,9 @@ img {
 .loader4 {
   position: absolute;
   width: 1vw;
-  height: 100px;
+  height: 80px;
 
-  top: 45%;
+  top: 50%;
   left: 4%;
   transform: translate(-50%, -50%);
 
