@@ -36,7 +36,7 @@ function setup() {
 	noStroke();
 }
 
-function mouseClicked() {
+function mouseMoved() {
 	for (i = 0; i < 50; i++) {
 		p.push(new Particle);
 	}
@@ -62,7 +62,7 @@ class Particle {
 
 	show() {
 		fill(0, this.invis);
-		ellipse(this.x, this.y, 2, 2);
+		rect(this.x, this.y, 10, 10);
 	}
 	move() {
 		if (this.y >= windowHeight - 2.5) {
