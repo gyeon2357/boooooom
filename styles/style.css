@@ -225,7 +225,14 @@ p#boom {
   left: 15%;
   transform: translate(-50%, -50%);
   width: 2%;
+}
 
+p.pie {
+  position: absolute;
+  top: 22%;
+  left: 17.5%;
+  transform: translate(-50%, -50%);
+  font-size: 0.5rem;
 }
 
 .img-firework {

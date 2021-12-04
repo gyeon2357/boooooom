@@ -191,7 +191,7 @@ img {
 p#clock {
   position: absolute;
   padding-left: 16px;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   align-self: center;
   justify-self: center;
   text-align: left;
@@ -206,7 +206,7 @@ p#boom {
   padding-left: 16px;
   bottom: 12px;
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   line-height: 1.4;
   align-self: center;
   justify-self: center;
@@ -227,6 +227,13 @@ p#boom {
   transform: translate(-50%, -50%);
   width: 5%;
 
+}
+p.pie {
+  position: absolute;
+  top: 28%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  font-size: 0.5rem;
 }
 
 .img-firework {
