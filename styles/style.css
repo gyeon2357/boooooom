@@ -384,6 +384,7 @@ p#boom {
 footer {
   position: absolute;
   font-size: 0.25rem;
+  line-height: 1.5;
   bottom: 36px;
   right: 24px;
 
