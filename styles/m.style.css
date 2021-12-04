@@ -175,7 +175,7 @@ img {
 
 #blink {
   position: absolute;
-  animation: blink-effect 0.1s step-end infinite;
+  animation: blink-effect 0.15s step-end infinite;
   z-index: -1;
 }
 
@@ -338,7 +338,7 @@ p#boom {
   top: 0px;
   left: 0px;
   height: 0px;
-  width: 1vw;
+  width: 1.25vw;
   z-index: 0;
   opacity: 1;
   -webkit-transform-origin: 100% 0%;
