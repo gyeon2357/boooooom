@@ -225,12 +225,59 @@ p#boom {
   left: 15%;
   transform: translate(-50%, -50%);
   width: 2%;
+
 }
+
 .img-firework {
   top: 15%;
-  left: 92.5%;
+  left: 55%;
   transform: translate(-50%, -50%);
+  animation: rotating 20s linear infinite alternate;
   width: 7.5%;
+}
+
+.img-circle{
+  top: 10%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  width: 2%;
+}
+.img-as {
+  top: 25%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  width: 5%;
+  animation: rotating 5s linear infinite alternate;
+  transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 .img-bar {
   top: 60%;
@@ -342,7 +389,8 @@ footer {
     width: 5%;
   }
   .img-firework {
-    left: 85%;
+    top: 75%;
+    left: 75%;
     width: 15%;
   }
 
@@ -382,7 +430,8 @@ footer {
   }
   .img-firework {
     width: 7.5%;
-    left: 87.5%;
+    top: 70%;
+    left: 85%;
   }
 
   .img-boom {
