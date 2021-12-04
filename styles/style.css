@@ -229,16 +229,28 @@ p#boom {
 }
 
 .img-firework {
-  top: 15%;
+  top: 10%;
   left: 55%;
   transform: translate(-50%, -50%);
   animation: rotating 20s linear infinite alternate;
   width: 7.5%;
 }
 
-.img-circle{
+.img-circle1{
   top: 10%;
   left: 70%;
+  transform: translate(-50%, -50%);
+  width: 3%;
+}
+.img-circle2{
+  top: 78%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 3%;
+}
+.img-circle3{
+  top: 92%;
+  left: 83%;
   transform: translate(-50%, -50%);
   width: 2%;
 }
