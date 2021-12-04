@@ -299,7 +299,7 @@ p#boom {
   }
 }
 .img-bar {
-  top: 80%;
+  top: 77.5%;
   left: 24px;
 
   width: 2%;
@@ -326,7 +326,7 @@ p#boom {
   width: 1.25vw;
   height: 64px;
 
-  top: 70%;
+  top: 65%;
   left: 24px;
   transform: translate(-50%, -50%);
 
@@ -384,7 +384,7 @@ p#boom {
 
 footer {
   position: absolute;
-  font-size: 0.25rem;
+  font-size: 0.5rem;
   bottom: 12px;
   right: 12px;
 
