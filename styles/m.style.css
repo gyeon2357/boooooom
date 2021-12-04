@@ -225,7 +225,7 @@ p#boom {
   top: 30%;
   left: 20%;
   transform: translate(-50%, -50%);
-  width: 7%;
+  width: 5%;
 
 }
 
@@ -237,26 +237,32 @@ p#boom {
   width: 15%;
 }
 
+.img-rect{
+  top: 22.5%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+}
 .img-circle1{
-  top: 75%;
-  left: 80%;
+  top: 73%;
+  left: 81%;
   transform: translate(-50%, -50%);
   width: 5%;
 }
 .img-circle2{
   top: 15%;
-  left: 58%;
+  left: 72.5%;
   transform: translate(-50%, -50%);
   width: 5%;
 }
 .img-circle3{
-  top: 45%;
-  left: 15%;
+  top: 43%;
+  left: 12.5%;
   transform: translate(-50%, -50%);
   width: 5%;
 }
 .img-as {
-  top: 85%;
+  top: 82.5%;
   left: 60%;
   transform: translate(-50%, -50%);
   width: 7.5%;

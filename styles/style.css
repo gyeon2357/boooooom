@@ -235,6 +235,12 @@ p#boom {
   animation: rotating 20s linear infinite alternate;
   width: 7.5%;
 }
+.img-rect{
+  top: 80%;
+  left: 7.5%;
+  transform: translate(-50%, -50%);
+  width: 8%;
+}
 
 .img-circle1{
   top: 10%;
@@ -243,7 +249,7 @@ p#boom {
   width: 3%;
 }
 .img-circle2{
-  top: 78%;
+  top: 75%;
   left: 20%;
   transform: translate(-50%, -50%);
   width: 3%;
