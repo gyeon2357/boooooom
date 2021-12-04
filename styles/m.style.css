@@ -385,8 +385,8 @@ p#boom {
 footer {
   position: absolute;
   font-size: 0.5rem;
-  bottom: 12px;
-  right: 12px;
+  bottom: 16px;
+  right: 16px;
 
   word-break: keep-all;
 }
