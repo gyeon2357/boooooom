@@ -377,19 +377,12 @@ p#boom {
 
 footer {
   position: absolute;
-  font-size: 0.2rem;
+  font-size: 0.25rem;
   bottom: 36px;
-  right: 36px;
+  right: 24px;
 
   word-break: keep-all;
 }
-
-
-  footer {
-    font-size: 0.25rem;
-    right: 36px;
-    bottom: 36px;
-  }
 
   .img-pie {
     width: 3%;

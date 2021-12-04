@@ -293,10 +293,10 @@ p#boom {
   }
 }
 .img-bar {
-  top: 60%;
+  top: 80%;
   left: 24px;
 
-  width: 1%;
+  width: 2%;
 }
 .img-b {
   top: 15%;
@@ -317,10 +317,10 @@ p#boom {
 
 .loader4 {
   position: absolute;
-  width: 1vw;
-  height: 80px;
+  width: 1.25vw;
+  height: 64px;
 
-  top: 45%;
+  top: 70%;
   left: 24px;
   transform: translate(-50%, -50%);
 
@@ -380,7 +380,7 @@ footer {
   position: absolute;
   font-size: 0.25rem;
   bottom: 12px;
-  right: 36px;
+  right: 12px;
 
   word-break: keep-all;
 }
