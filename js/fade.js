@@ -14,7 +14,7 @@ window.onload = function () {
   function displayTime() {
     var now = new Date();
 
-    clock.innerText = "2021." + "12" + "." + pad(now.getDate(), 2) + " " +
+    clock.innerText = "2021." + "12" + "." + pad(now.getDate(), 2) + ". " +
       pad(now.getHours(), 2) +
       ":" +
       pad(now.getMinutes(), 2) +
