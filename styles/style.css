@@ -196,7 +196,7 @@ a {
 
 p#clock {
   position: absolute;
-
+  margin-left: 12px;
   font-size: 2.4rem;
   align-self: center;
   justify-self: center;
@@ -209,7 +209,7 @@ p#clock {
 p#boom {
   width: 100%;
   position: absolute;
-
+  margin-left: 12px;
   bottom: 12px;
   text-align: left;
   font-size: 2.4rem;
@@ -396,9 +396,9 @@ p.pie {
 
 footer {
   position: absolute;
-  font-size: 0.25rem;
+  font-size: 0.75rem;
   line-height: 1.5;
-  bottom: 36px;
+  top: 24px;
   right: 24px;
 
   word-break: keep-all;
