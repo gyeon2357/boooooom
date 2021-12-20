@@ -231,7 +231,7 @@ p#boom {
   top: 30%;
   left: 20%;
   transform: translate(-50%, -50%);
-  width: 5%;
+  width: 7%;
 }
 p.pie {
   position: absolute;
@@ -246,14 +246,14 @@ p.pie {
   left: 10%;
   transform: translate(-50%, -50%);
   animation: rotating 20s linear infinite alternate;
-  width: 15%;
+  width: 30%;
 }
 
 .img-rect {
   top: 22.5%;
   left: 85%;
   transform: translate(-50%, -50%);
-  width: 10%;
+  width: 15%;
 }
 .img-circle1 {
   top: 73%;
@@ -271,13 +271,13 @@ p.pie {
   top: 43%;
   left: 12.5%;
   transform: translate(-50%, -50%);
-  width: 5%;
+  width: 7%;
 }
 .img-as {
   top: 82.5%;
   left: 60%;
   transform: translate(-50%, -50%);
-  width: 7.5%;
+  width: 10%;
   animation: rotating 5s linear infinite alternate;
   transform-origin: 50% 50%;
 }
