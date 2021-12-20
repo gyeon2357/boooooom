@@ -362,8 +362,8 @@ p.pie {
   opacity: 1;
   -webkit-transform-origin: 100% 0%;
   transform-origin: 100% 0%;
-  -webkit-animation: loader4 0.15s infinite alternate;
-  animation: loader4 0.15s infinite alternate;
+  -webkit-animation: loader4 0.2s infinite alternate;
+  animation: loader4 0.2s infinite alternate;
 }
 
 .loader4:after {
