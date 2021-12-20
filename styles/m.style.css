@@ -175,7 +175,7 @@ img {
 
 #blink {
   position: absolute;
-  animation: blink-effect 0.15s step-end infinite;
+  animation: blink-effect 0.35s step-end infinite;
   z-index: -1;
 }
 
