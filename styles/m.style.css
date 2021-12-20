@@ -188,7 +188,7 @@ img {
   }
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
   cursor: pointer;
@@ -232,7 +232,6 @@ p#boom {
   left: 20%;
   transform: translate(-50%, -50%);
   width: 5%;
-
 }
 p.pie {
   position: absolute;
@@ -250,25 +249,25 @@ p.pie {
   width: 15%;
 }
 
-.img-rect{
+.img-rect {
   top: 22.5%;
   left: 85%;
   transform: translate(-50%, -50%);
   width: 10%;
 }
-.img-circle1{
+.img-circle1 {
   top: 73%;
   left: 81%;
   transform: translate(-50%, -50%);
   width: 5%;
 }
-.img-circle2{
+.img-circle2 {
   top: 15%;
   left: 72.5%;
   transform: translate(-50%, -50%);
   width: 5%;
 }
-.img-circle3{
+.img-circle3 {
   top: 43%;
   left: 12.5%;
   transform: translate(-50%, -50%);
