@@ -188,6 +188,12 @@ img {
   }
 }
 
+a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
 p#clock {
   position: absolute;
   padding-left: 16px;
