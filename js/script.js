@@ -26,7 +26,7 @@
         if (!canvas.isDrawing) {
             return;
         }
-        var radius = 125; // or whatever
+        var radius = 90; // or whatever
         var fillColor = '#ff0000';
         ctx.globalCompositeOperation = 'destination-out';
         ctx.fillCircle(x, y, radius, fillColor);
@@ -75,7 +75,7 @@
     }
 
     var container = document.getElementById('canvas');
-    init(container, window.innerWidth, window.innerHeight, bg);
+    init(container, window.outerWidth, window.outerHeight, bg);
 
     /* Bonus : throttle these events so they don't fire too often */
     function throttle(callback) {
