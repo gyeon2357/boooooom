@@ -170,19 +170,9 @@ pre {
 body {
   font-family: "AGChoijeonghoMinburiStdBold";
 
-  height: 200vh;
-
 }
 
-#back {
-  z-index: -10;
-  pointer-events: none;
-  position: absolute;
-  margin: 0;
-  display: block;
-  width: 110vw;
-  height: 130vh;
-}
+
 
 #text {
   pointer-events: none;
