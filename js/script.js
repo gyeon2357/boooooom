@@ -42,7 +42,7 @@
         return canvas;
     }
     // Colours on random
-    var randomColors = ['#ff4000'];
+    var randomColors = ['#22FF06'];
     var bg = randomColors[Math.floor(Math.random() * randomColors.length)];
     var canvas, ctx; // got it out to avoid nesting too deeply my handlers;
 
