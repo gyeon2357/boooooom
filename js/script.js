@@ -75,7 +75,7 @@
     }
 
     var container = document.getElementById('canvas');
-    init(container, 5000, 3000, bg);
+    init(container, window.innerWidth, window.innerHeight, bg);
 
     /* Bonus : throttle these events so they don't fire too often */
     function throttle(callback) {
@@ -116,7 +116,7 @@ for (var i = 0; i < slideCount; i++) {
 
 setInterval(function () {
     moveRight();
-}, 3000);
+}, 2000);
 var counter = 1;
 
 function moveRight() {
