@@ -169,7 +169,6 @@ pre {
 
 body {
   font-family: "AGChoiJeongHoStd-Regular";
-
 }
 
 
@@ -185,7 +184,7 @@ body {
   line-height: 1.65;
   color: #000;
   cursor: auto;
-  width: 45%;
+  width: 40%;
   transition: 0.1s;
 }
 
