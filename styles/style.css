@@ -245,7 +245,7 @@ header {
 
 /* Modal Content */
 .ebcf_modal-content1 {
-  background-color: rgba(180, 180, 180, 1);
+  background-color: var(--background);
   color: var(--boxColor);
   margin: auto;
   padding: 32px;
@@ -283,7 +283,7 @@ header {
 
 /* Modal Content */
 .ebcf_modal-content2 {
-  background-color: rgba(180, 180, 180, 1);
+  background-color: var(--background);
   color: var(--boxColor);
   margin: auto;
   padding: 24px 24px 24px 24px;
