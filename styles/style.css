@@ -800,25 +800,13 @@ padding: 32px;
     width: 10px;
     height: 20px;
     right: 18px;
-    border-radius: 0 10px 10px 0;
+    border-radius: 50%;
   }
 
   .label-line {
 
 
-    display: inline-block;
-
-    right: 28px;
-    width: 10px;
-    height: 20px;
-
-    border: 1px solid var(--background);
-    border-radius: 10px 0 0 10px;
-
-    position: fixed;
-    cursor: pointer;
-
-    z-index: 1009;
+    display: none;
   }
 
   .body-container {
