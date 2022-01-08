@@ -768,7 +768,7 @@ padding: 32px;
   .logo {
     position: absolute;
   
-    width: 4vw;
+    width: 6vw;
     right: 2%;
     bottom: 0.5vw;
   }
@@ -852,9 +852,9 @@ padding: 32px;
     grid-template-columns: repeat(10, minmax(20%, auto));
     grid-template-rows: repeat(1, minmax(8px, auto));
     grid-column-gap: 16px;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 
-    padding: 24px 0 0px 0;
+    padding: 8px 0 0px 0;
   }
 
   .item:nth-of-type(1) {
@@ -924,8 +924,8 @@ padding: 32px;
   position: fixed;
   z-index: 100;
   padding-top: 32vh;
-  font-size: 0.75rem;
-  line-height: 1.75;
+  font-size: 0.9rem;
+  
   left: 0;
   top: 0;
   width: 100%;
@@ -944,10 +944,10 @@ padding: 32px;
 .ebcf_modal-content0 {
   background-color: var(--background);
   color: var(--boxColor);
-  padding: 16px;
+  padding: 18px;
   margin: 0 auto;
-  width: 40%;
-  border-radius: 16px;
+  width: 60%;
+
 }
 
 .ebcf_close3:hover,
