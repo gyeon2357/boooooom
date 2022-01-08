@@ -795,9 +795,9 @@ padding: 32px;
   }
 
   input[type="checkbox"] + label {
-    top: 95%;
-    left: 94.5vw;
-    width: 10px;
+    top: 96%;
+    left: 92vw;
+    width: 20px;
     height: 20px;
     right: 18px;
     border-radius: 50%;
