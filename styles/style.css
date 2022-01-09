@@ -365,7 +365,6 @@ input[type="checkbox"] + label {
   width: 1vw;
   height: 2vw;
 
-
   background: var(--background);
   border-radius: 0 1vw 1vw 0;
 
@@ -373,7 +372,6 @@ input[type="checkbox"] + label {
   cursor: pointer;
 
   z-index: 1009;
-  
 }
 .label-line {
   display: inline-block;
@@ -777,8 +775,6 @@ video.video-2 {
     height: 100%;
     top: 0;
     left: 0;
-
-    
   }
 
   .img-container {
@@ -815,7 +811,7 @@ video.video-2 {
   }
 
   input[type="checkbox"] + label {
-    top: 96%;
+    bottom: 16px;
     left: 92vw;
     width: 20px;
     height: 20px;
@@ -889,13 +885,13 @@ video.video-2 {
   }
 
   .tooltip1,
-.tooltip2,
-.tooltip3,
-.tooltip4,
-.tooltip5,
-.tooltip6 {
-  display: none;
-}
+  .tooltip2,
+  .tooltip3,
+  .tooltip4,
+  .tooltip5,
+  .tooltip6 {
+    display: none;
+  }
 
   p.y-text {
     position: relative;
@@ -947,7 +943,7 @@ video.video-2 {
     position: fixed;
     z-index: 100;
     padding-top: 32vh;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 
     left: 0;
     top: 0;
