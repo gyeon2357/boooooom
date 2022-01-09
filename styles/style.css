@@ -646,6 +646,7 @@ p.y-text {
   display: inline;
   width: 45%;
   margin-left: 0.5vw;
+  border: 1px solid rgba(200, 200, 200, 0.9);
 }
 
 img.t-img {
