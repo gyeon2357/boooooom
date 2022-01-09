@@ -819,6 +819,7 @@ video.video-2 {
 
   .body-container {
     position: relative;
+    grid-template-columns: repeat(10, minmax(13.5%, auto));
     grid-column-gap: 10px;
     margin-left: 2vw;
     font-size: 0.9rem;
