@@ -849,7 +849,7 @@ video.video-2 {
     grid-column-gap: 16px;
     font-size: 2.75vw;
 
-    padding: 8px 0 0px 0;
+    padding: 36px 0 0px 0;
   }
 
   .item:nth-of-type(1) {
