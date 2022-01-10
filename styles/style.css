@@ -363,7 +363,6 @@ input {
 }
 
 input[type="checkbox"] + label {
-
   cursor: pointer;
 
   z-index: 1009;
@@ -791,7 +790,7 @@ video.video-2 {
   z-index: 100;
   padding-top: 32vh;
   font-size: 0.9rem;
-text-align: center;
+  text-align: center;
   left: 0;
   top: 0;
   width: 100%;
@@ -820,7 +819,6 @@ text-align: center;
   cursor: pointer;
   text-decoration: none;
 }
-
 
 @media all and (min-width: 768px) {
   p.text {
@@ -969,7 +967,7 @@ text-align: center;
 
   .container {
     display: grid;
-    grid-template-columns: repeat(10, minmax(20%, auto));
+    grid-template-columns: repeat(10, minmax(25%, auto));
     grid-template-rows: repeat(1, minmax(8px, auto));
     grid-column-gap: 8px;
     font-size: 3vw;
@@ -992,7 +990,7 @@ text-align: center;
   }
 
   .item:nth-of-type(2) {
- display: none;
+    display: none;
   }
   .item:nth-of-type(3) {
     grid-column: 2 / span 1;
