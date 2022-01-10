@@ -978,9 +978,9 @@ text-align: center;
   }
   .container1 {
     display: grid;
-    grid-template-columns: repeat(10, minmax(20%, auto));
+    grid-template-columns: repeat(10, minmax(25%, auto));
     grid-template-rows: repeat(1, minmax(8px, auto));
-    grid-column-gap: 8px;
+    grid-column-gap: 16px;
     font-size: 3vw;
 
     padding: 10px 0 0px 0;
@@ -995,10 +995,12 @@ text-align: center;
  display: none;
   }
   .item:nth-of-type(3) {
-    grid-column: 3 / span 1;
+    grid-column: 2 / span 1;
+    text-align: center;
   }
   .item:nth-of-type(4) {
-    grid-column: 4 / span 1;
+    grid-column: 3 / span 1;
+    text-align: center;
   }
 
   .tooltip1,
