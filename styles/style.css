@@ -363,9 +363,9 @@ input {
 }
 
 input[type="checkbox"] + label {
-  transition: opacity 0.1s;
+
   cursor: pointer;
-  animation: blink-effect 0.3s step-end infinite; /* animation-name: blink-effect; animation-duration: 1s; animation-iteration-count:infinite; animation-timing-function:step-end; */
+
   z-index: 1009;
 }
 
@@ -376,7 +376,8 @@ input[type="checkbox"] + label {
   background: var(--background);
   border-radius: 50%;
   cursor: pointer;
-
+  transition: opacity 0.2s;
+  animation: blink-effect 0.3s step-end infinite; /* animation-name: blink-effect; animation-duration: 1s; animation-iteration-count:infinite; animation-timing-function:step-end; */
   right: 5vw;
   top: 1.1vw;
 }
