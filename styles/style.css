@@ -308,8 +308,8 @@ a:visited {
 }
 
 .ebcf_modal-content0 {
-  background-color: var(--background);
-  color: var(--boxColor);
+  background-color: white;
+  color: black;
 padding: 20px;
   margin: 0 auto;
   width: 75%;
