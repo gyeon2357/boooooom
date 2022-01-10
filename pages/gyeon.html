@@ -85,17 +85,13 @@
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+
 
     <link rel="stylesheet" href="../styles/style.css" />
   </head>
 
   <body>
     <input class="check" id="check1" type="checkbox" />
-    <label for="check1"> <div class="label-line"></div></label>
 
     <nav class="nav">
       <div onclick="location.href='../index.html#home'">
@@ -250,12 +246,16 @@
               <span class="ebcf_close2"></span>
 
               <ol>
-                <b>문의 Contact</b>
+                문의 Contact
                 <br />
                 Instagram @pati.deobaegot<br />
                 E-mail pati.boooooom@gmail.com
               </ol>
             </div>
+          </div>
+
+          <div class="circle2">
+            <label for="check1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
           </div>
         </div>
 
@@ -269,6 +269,25 @@
         <div class="sticky2"></div>
       </nav>
 
+      <p href="#" id="mark3"></p>
+      <div id="mark3Modal" class="ebcf_modal3">
+        <div class="ebcf_modal-content3">
+          <div class="ebcf_modal-content0">
+            <span class="ebcf_close3"></span>
+            <div class="exit">
+              <ol>
+                이 작업은 모바일에서 감상하기에 적합하지 않습니다. 모든
+                기능을 살펴보고 싶다면, 데스크톱 웹 브라우저를
+                이용해주세요.<br /><br />
+                This work is not suitable for watching on mobile. If you
+                want to look at all the functions, please use a desktop web
+                browser.
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <section id="ab">
         <div class="body-container">
           <div class="body-item">박정견</div>
@@ -279,8 +298,19 @@
           <div class="body-item">
             1MB-sketchbook, Drawing in Programming language
           </div>
-          <div class="body-item">@jeong.gyeon</div>
+          <div class="body-item">
+            <a
+              class="underline"
+              href="https://www.instagram.com/jeong.gyeon/"
+              target="_blank"
+              >@jeong.gyeon</a
+            >
+          </div>
           <div class="body-item">jeong.gyeony@gmail.com</div>
+          <div class="body-item">웹사이트 Website</div>
+          <div class="body-item">
+            <a href="https://sketch-book.xyz">https://sketch-book.xyz</a>
+          </div>
         </div>
 
         <p class="text">
@@ -298,11 +328,7 @@
           [C. What is implied from the dots and lines], [D. it is generated
           by the JavaScript code classified into the space]. It is the
           independent world that creates a kind of maze of many different
-          ways. It creates a world of reality Like an abstraction.<br /><br /><a
-            class="link"
-            href="https://sketch-book.xyz"
-            >웹사이트 Website <br />https://sketch-book.xyz</a
-          >
+          ways. It creates a world of reality Like an abstraction.
         </p>
         <p class="text"></p>
 
@@ -317,12 +343,24 @@
           >
             <strong>Your browser does not support the video tag.</strong>
           </video>
+          <video
+            class="video-1"
+            src="../images/gyeon/gyeon-2.mp4"
+            autoplay
+            muted
+            playsinline
+            loop
+          >
+            <strong>Your browser does not support the video tag.</strong>
+          </video>
 
+          <img class="t-img" src="../images/gyeon/gyeon-1.jpg" />
           <img class="t-img" src="../images/gyeon/gyeon-2.jpg" />
           <img class="t-img" src="../images/gyeon/gyeon-3.jpg" />
           <img class="t-img" src="../images/gyeon/gyeon-4.jpg" />
           <img class="t-img" src="../images/gyeon/gyeon-5.jpg" />
           <img class="t-img" src="../images/gyeon/gyeon-6.jpg" />
+          <img class="t-img" src="../images/gyeon/gyeon-7.jpg" />
         </div>
       </section>
     </div>
@@ -336,8 +374,7 @@
         });
       });
     </script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="../js/slide.js"></script>
+ 
 
     <script src="../js/mode.js"></script>
     <script src="../js/modal.js"></script>
