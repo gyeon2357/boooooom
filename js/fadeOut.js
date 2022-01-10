@@ -1,4 +1,6 @@
+
+
 setTimeout(function () {
-  testEle = $("#loader");
-  testEle.fadeOut();
-}, 600);
+  testEle = $("#info");
+  testEle.fadeOut(500);
+}, 100);
