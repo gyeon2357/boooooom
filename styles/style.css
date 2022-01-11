@@ -886,6 +886,10 @@ video.video-2 {
     padding: 16px;
   }
 
+  .ebcf_modal4 {
+    display: none;
+  }
+
   .vimeo iframe {
     position: relative;
     display: block;
