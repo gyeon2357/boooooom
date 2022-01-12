@@ -660,12 +660,31 @@ p.body-item {
   padding-bottom: 2px;
   border-bottom: 1px solid gray;
 }
+.body-item:nth-of-type(9) {
+  grid-column: 1 / span 2;
+  grid-row: 13;
+}
+.body-item:nth-of-type(10) {
+  grid-column: 1 / span 2;
+  grid-row: 14;
+  padding-bottom: 2px;
+  border-bottom: 1px solid gray;
+}
 
 p.text {
   position: absolute;
   display: block;
   width: 28%;
   margin: 15vw 0 0 1vw;
+  font-size: 0.4rem;
+  line-height: 1.55;
+  word-break: keep-all;
+}
+p.j-text {
+  position: absolute;
+  display: block;
+  width: 28%;
+  margin: 25vw 0 0 1vw;
   font-size: 0.4rem;
   line-height: 1.55;
   word-break: keep-all;
@@ -973,6 +992,12 @@ position: absolute;
   .body-item:nth-of-type(8) {
     grid-column: 1 / span 6;
   }
+  .body-item:nth-of-type(9) {
+    grid-column: 1 / span 6;
+  }
+  .body-item:nth-of-type(10) {
+    grid-column: 1 / span 6;
+  }
 
   .container {
     display: grid;
@@ -1027,6 +1052,15 @@ position: absolute;
     line-height: 1.6;
     word-break: keep-all;
   }
+  p.j-text {
+    position: relative;
+    width: 90%;
+    margin: 7.5vw 0 0 2vw;
+    font-size: 0.9rem;
+
+    word-break: keep-all;
+  }
+
   p.text {
     position: relative;
     width: 90%;
